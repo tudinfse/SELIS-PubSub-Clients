@@ -1,0 +1,21 @@
+{
+  "name": "pubsub_node_connector",
+  "version": "0.1.0",
+  "description": "Nodejs SELIS pub/sub connector",
+  "main": "pubsub_node_connector.js",
+  "dependencies": {
+    "buffer-split": "^1.0.0",
+    "body-parser": "^1.18.2",
+    "base-64": "^0.1.0",
+    "express": "^4.16.2",
+    "net": "^1.0.2",
+    "node-rest-client": "^3.1.0",
+    "utf8": "^3.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node pubsub_node_connector.js dev"
+  },
+  "author": "Orfeas Panagou",
+  "license": "ISC"
+}
